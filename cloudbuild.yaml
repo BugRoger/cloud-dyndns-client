@@ -14,7 +14,7 @@
 
 steps:
 - name: 'gcr.io/cloud-builders/go'
-  args: ['install', '-a', '-installsuffix', 'cgo', 'github.com/BugRoger/cloud-dyndns-client/cmd/cloud-dyndns-client']
+  args: ['install', '-a', '-installsuffix', 'cgo', 'github.com/BugRoger/cloud-dyndns-client']
   env: [
     'PROJECT_ROOT=github.com/BugRoger/cloud-dyndns-client',
     'CGO_ENABLED=0',
